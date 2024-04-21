@@ -1,0 +1,492 @@
+@media all and (min-width:1400px) {
+    .container {
+        max-width: 1620px;
+    }
+}
+@media all and (max-width: 1399px) {
+    .service_inner_box {
+        text-align: center;
+        position: relative;
+        width: 295px;
+        height: 334px;
+        padding: 101px 0;
+    }
+    .single_service_items:nth-child(1) .service_inner_box img {
+        height: 65px;
+        margin-bottom: 15px;
+    }
+    .single_service_items:nth-child(2) .service_inner_box img {
+        width: auto;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .single_service_items:nth-child(3) .service_inner_box img {
+        width: auto;
+        height: 55px;
+        margin-bottom: 25px;
+    }
+    .service_inner_box p {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .service_one {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33%;
+                flex: 0 0 33%;
+    }
+    .text_30 {
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+    }
+    .benefit_content_area {
+        gap: 60px;
+    }
+    .why_choose_us_area ul li {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+        gap: 15px;
+    }
+    .client_right_review {
+        width: 565px;
+        height: 550px;
+        right: 0px;
+        bottom: -108px;
+    }
+    .single_review_items p {
+        color: #00152E;
+        font-style: italic;
+        max-width: 490px;
+        width: 100%;
+        margin-left: 95px;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        font-size: 110px;
+        left: 0px;
+        top: -35%;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        font-size: 110px;
+        right: 0;
+        top: -35%;
+    }
+    .checkbox_inner_area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 70px;
+    }
+    .footer_logo a img {
+        max-width: 270px;
+        width: 100%;
+    }
+    .footer_middle_txt p {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+        max-width: 505px;
+        width: 100%;
+    }
+}
+@media all and (max-width:1199px) {
+    .banner_single_items img {
+        max-width: 220px;
+    }
+    .logo a img {
+        max-width: 260px;
+    }
+    .heading1 {
+        font-size: 58px;
+        line-height: 75px;
+    }
+    .service_two {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 55%;
+                flex: 0 0 55%;
+    }
+    .service_one {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 45%;
+                flex: 0 0 45%;
+    }
+    .service_three {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+    }
+    .single_service_items {
+        margin-bottom: 50px;
+    }
+    .single_service_items:nth-child(3) .service_list_details ul {
+        margin-left: 45px;
+    }
+    .client_review_main_area {
+        padding: 80px 0 80px;
+    }
+    .client_right_review {
+        width: 465px;
+        height: 490px;
+        bottom: -80px;
+    }
+    .footer_content_area {
+        padding: 69px 0 96px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+    .checkbox-wrapper-33 .checkbox__textwrapper {
+        font-size: 18px;
+        line-height: 40px;
+        letter-spacing: 0.48px;
+    }
+    .checkbox-wrapper-33 .checkbox__symbol {
+        margin-right: 12px;
+        width: 30px;
+        height: 27px;
+       
+    }
+    
+}
+@media all and (max-width:991px) {
+    .banner_top_area {
+        gap: 50px;
+        padding: 125px 0 125px;
+    }
+    .heading1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .service_content_area {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        padding-top: 55px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .single_service_items:nth-child(1) .service_inner_box {
+        padding: 70px 0 101px;
+        margin: auto;
+    }
+    .single_service_items:nth-child(1) .service_list_details, .single_service_items:nth-child(2) .service_list_details {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 35px;
+
+    }
+    .service_two .service_inner_box {
+        margin: auto;
+    }
+    .service_inner_box {
+        width: 295px;
+        height: 334px;
+        padding: 101px 0;
+        margin: auto;
+    }
+    .single_service_items {
+        margin-bottom: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .benefit_content_area {
+        gap: 60px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .client_right_review {
+        display: none;
+    }
+    .checkbox_inner_area {
+        gap: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+@media all and (max-width:767px) {
+    .logo a img {
+        max-width: 150px;
+    }
+    .header_btn_area a {
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 15px;
+        padding: 16px 30px;
+    }
+    .heading1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .text_30 {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+    }
+    .heading2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .single_review_items p {
+        max-width: 368px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    
+}
+@media all and (max-width:575px) {
+    .text_30 {
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+    }
+    .banner_top_area {
+        gap: 20px;
+        padding: 101px 0 60px;
+    }
+    .header_btn_area a {
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 15px;
+        padding: 16px 25px;
+        background-size: 100% 100%;
+    }
+    .single_service_items:nth-child(1) .service_list_details, .single_service_items:nth-child(2) .service_list_details {
+        gap: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .service_list_details {
+        padding-top: 20px;
+    }
+    .why_choose_us_area ul li img {
+        max-width: 20px;
+        margin-top: 3px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        font-size: 45px;
+        right: 0;
+        top: -3%;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        font-size: 45px;
+        left: 0px;
+        top: -3%;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 15px;
+        height: 20px;
+        -webkit-transform: skew(-25deg,0deg);
+                transform: skew(-25deg,0deg);
+        margin: 0px 8px;
+    }
+    .owl-theme .owl-dots .owl-dot.active span {
+        width: 18px;
+        -webkit-transform: skew(0deg,0deg);
+                transform: skew(0deg,0deg);
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .double_form_area {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 20px;
+    }
+    .single_form {
+        margin: 20px 0;
+    }
+    .form_input_area input, .single_form input {
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        border: 1px solid #000;
+    }
+    ::-ms-input-placeholder { /* Edge 12-18 */
+        font-size: 14px;
+      }
+      
+      ::-webkit-input-placeholder {
+        font-size: 14px;
+      }
+      
+      ::-moz-placeholder {
+        font-size: 14px;
+      }
+      
+      :-ms-input-placeholder {
+        font-size: 14px;
+      }
+      
+      ::placeholder {
+        font-size: 14px;
+      }
+      .client_review_title {
+        margin-bottom: 35px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .heading2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .single_review_items p {
+        max-width: 368px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .checkbox-wrapper-33 .checkbox__textwrapper {
+        font-size: 16px;
+        line-height: 40px;
+        letter-spacing: 0.48px;
+    }
+    .footer_logo a img {
+        max-width: 200px;
+        width: 100%;
+    }
+    .footer_middle_txt p {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.4px;
+        max-width: 505px;
+        width: 100%;
+    }
+    .footer_content_area {
+        padding: 60px 0 80px;
+        gap: 20px;
+    }
+
+}
+@media all and (max-width:450px) {
+    .header_content_area {
+        padding: 35px 0px 25px 0px;
+    }
+    .banner_btm_content {
+        padding-bottom: 70px;
+        padding-left: 0;
+    }
+    .heading1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .service_main_area {
+        padding: 60px 0 40px;
+    }
+    .service_inner_box p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .service_inner_box {
+        width: 270px;
+        height: 306px;
+        padding: 85px 0px;
+    }
+    .single_service_items:nth-child(1) .service_inner_box {
+        padding: 60px 0 76px;
+    }
+    .triforza_benifit_main_area {
+        background: #FFF;
+        padding: 80px 0 80px;
+    }
+    .single_review_items p {
+        max-width: 335px;
+        font-size: 16px;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        font-size: 42px;
+        right: -10px;
+        top: -3%;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        font-size: 42px;
+        left: -10px;
+        top: -3%;
+    }
+    .checkbox-wrapper-33 .checkbox__symbol {
+        margin-right: 10px;
+        width: 22px;
+        height: 22px;
+    }
+    .checkbox-wrapper-33 .checkbox__textwrapper {
+        font-size: 14px;
+        line-height: 40px;
+        letter-spacing: 0.48px;
+    }
+    .checkbox-wrapper-33 .checkbox .icon-checkbox {
+        width: 18px;
+        height: 18px;
+    }
+    .text_30 {
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+    }
+    .why_choose_us_area ul li {
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                    -ms-grid-row-align: flex-start;
+                align-items: flex-start;
+        gap: 10px;
+    }
+    .why_choose_us_area ul li img {
+        max-width: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
