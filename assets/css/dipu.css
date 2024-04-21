@@ -1,0 +1,38 @@
+.clients_think_main_area{
+    padding: 127px 0 76px 0;
+    background: #FFF;
+}
+
+.lets_talk_main_area{
+    padding: 130px 0 124px 0;
+    background: #FFF;
+}
+
+.talk_wrapper{
+    text-align: center;
+}
+
+.talk_wrapper .tittle{
+    color: #09061E; 
+    text-align: center;
+}
+
+.talk_wrapper .sub_text{
+    color: #00152E;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    padding: 7px 0 26px 0;
+}
+
+.talk_wrapper .sub_text .schedule{
+    font-weight: 700;
+    color: #00152E;
+}
+
+.new_btns a{
+    padding: 20px 65px;
+}

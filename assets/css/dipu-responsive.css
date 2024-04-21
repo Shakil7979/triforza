@@ -1,0 +1,63 @@
+@media all and (max-width: 1399px) {
+   
+}
+
+
+
+@media all and (max-width:1199px) {
+   
+
+}
+
+@media all and (max-width:991px) {
+    .clients_think_main_area{
+        padding: 100px 0 50px 0;
+    }
+    .lets_talk_main_area {
+        padding: 100px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 27px;
+        line-height: normal;
+    }
+}
+
+@media all and (max-width:767px) {
+    .clients_think_main_area{
+        padding: 60px 0 50px 0;
+    }
+    .lets_talk_main_area {
+        padding: 60px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 25px;
+    }
+
+}
+@media all and (max-width:575px) {
+    .clients_think_main_area{
+        padding: 50px 0 20px 0;
+    }
+    .lets_talk_main_area {
+        padding: 50px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 22px;
+    }
+
+}
+@media all and (max-width:450px) {
+    .talk_wrapper .sub_text {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
