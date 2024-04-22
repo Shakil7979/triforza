@@ -11,6 +11,20 @@
         height: 334px;
         padding: 101px 0;
     }
+    .single_review_img {
+        width: 421px;
+    }
+    .single_review_items {
+        height: 445px;
+    }
+    .single_review_left p {
+        font-size: 16px;
+    }
+    .single_review_left h4 {
+        width: 70%;
+        line-height: 23px;
+        font-size: 16px;
+    }
     .copy_textt p { 
         font-size: 14px; 
     }
@@ -118,6 +132,9 @@
     .banner_single_items img {
         max-width: 220px;
     }
+    .single_review_img {
+        width: 305px; 
+    }
     .copy_textt p { 
         text-align: center;
     }
@@ -156,7 +173,7 @@
         margin-left: 45px;
     }
     .client_review_main_area {
-        padding: 80px 0 80px;
+        padding: 80px 0 0px 0;
     }
     .client_right_review {
         width: 465px;
@@ -208,6 +225,32 @@
     .copy_textt { 
         padding: 20px 0;
     }
+    .single_review_img {
+        position: inherit; 
+        display: none;
+    }
+    .single_review_left h4 { 
+        margin: 25px 0 0 0 ;
+        text-align: center;
+    }
+    .client_review_title { 
+        justify-content: center;
+        display: flex;
+    }
+    .single_review_left { 
+        flex: 0 0 100%;
+    }
+    .owl-theme .owl-dots { 
+        left: 0;
+        right: 0;
+    }
+    .single_review_left h4 { 
+        width: 100%;
+    }
+    /* .single_review_items {
+        height: 800px;
+        flex-direction: column-reverse;
+    } */
     .mega_menu_title h3 { 
         font-size: 20px; 
     }
@@ -346,6 +389,19 @@
 @media all and (max-width:767px) {
     .logo a img {
         max-width: 150px;
+    }
+
+    .sk_contact_area .contactUs_title p { 
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sk_contact_area .contact_form_content { 
+        padding: 30px;
+    }
+
+    .contactUs_title { 
+        margin-bottom: 30px;
     }
     
     .header_btn_area a { 

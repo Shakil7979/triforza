@@ -445,12 +445,12 @@ img{
 .client_review_main_area {
 	background: #42F4B1;
 	position: relative;
-  padding: 120px 0 108px;
+  /* padding: 120px 0 108px; */
 }
 .single_review_items p {
 	color: #00152E;
 	font-style: italic;
-	max-width: 610px;
+	max-width: 803px;
 	width: 100%;
 	margin-left: 95px;
 }
@@ -460,6 +460,7 @@ img{
 .client_review_title {
 	margin-bottom: 35px;
 	padding-left: 95px;
+	padding-top: 80px;
 }
 .client_review_content{
   position: relative;
@@ -480,7 +481,7 @@ img{
 	text-align: left;
 	-webkit-tap-highlight-color: transparent;
 	margin-left: 85px;
-	margin-top: 55px;
+	margin-top: 0;
 }
 .owl-theme .owl-dots .owl-dot span {
 	margin: 0px 13px;
@@ -504,19 +505,43 @@ img{
 	position: absolute;
 	content: "";
 	left: 0px;
-	top: -15%;
+	top: 35%;
 }
 .owl-carousel .owl-nav button.owl-next {
 	font-size: 125px;
 	position: absolute;
 	right: 0;
-	top: -15%;
+	top: 35%;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover {
 	background: transparent;
 	color: #FFF;
 	text-decoration: none;
 }
+
+.owl-theme .owl-dots { 
+	position: absolute;
+	bottom: 38px;
+	margin-top: 0;
+}
+
+.single_review_img img { 
+	width: 100% !important;
+	height: 100%;
+	object-fit: cover;
+}
+
+.single_review_img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99;
+	flex: 0 0 50%;
+	width: 800px;
+	height: 100%;
+}
+
+
 /* Start contact us main area */
 .contact_us_main_area{
   background: #FFF;
@@ -944,4 +969,135 @@ input[type=number] {
 .copy_textt {
 	border-top: 1px solid rgba(41, 222, 253, 0.50);
 	padding: 37px 0;
+}
+
+
+
+/* shakil css here  */
+
+.banner_btm_content a {
+	color: #42F4B1;
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	margin-top: 31px;
+	display: inline-block;
+}
+
+.service_row {
+	display: flex;
+	align-items: center;
+}
+
+.section_title p {
+	color: var(--P5, #FFF);
+	font-family: Roboto;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 35px;
+	letter-spacing: 0.6px;
+	width: 63%;
+	text-align: left;
+}
+
+.heading2 { 
+	text-align: left;
+}
+
+.service_main_area {
+	padding: 75px 0 135px 0;
+}
+
+.single_review_items {
+	display: flex;
+	/* align-items: center; */
+	/* padding: 80px 0; */
+	height: 640px;
+	
+}
+
+.single_review_left {
+	/* padding: 80px 0; */
+}
+
+.single_review_left h4 {
+	color: #000;
+	font-family: Roboto;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0.6px; 
+	margin: 25px 0 25px 95px;
+	padding-bottom: 80px;
+}
+
+.sk_contact_area {
+	background: #1B153E;
+}
+
+.sk_contact_area  .contact_form_content { 
+	background: #fff;
+	padding: 35px 71px;
+}
+ 
+.sk_contact_area .contactUs_title h2 {
+	color: #42F4B1; 
+	margin-bottom: 26px;
+}
+
+.sk_contact_area .contactUs_title p {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 17px;
+	width: 86%;
+	font-size: 27px;
+	line-height: 36px;
+}
+
+.sk_contact_area .contactUs_title p a{ 
+	color: #42F4B1; 
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.sk_contact_area .single_form label,
+.sk_contact_area .form_input_area label {
+	color: #1B153E;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 11px;
+}
+
+
+.sk_contact_area .form_input_area input, .sk_contact_area .single_form input {
+ 
+	padding: 0 15px; 
+	height: 40px;
+}
+
+.sk_contact_area .form_input_area input:focus,
+ .sk_contact_area .single_form input:focus  {
+	border: 1px solid #42F4B1;
+ }
+
+ .sk_contact_area .checkbox_title p { 
+	text-align: left;
+	font-size: 14px;
+}
+
+.sk_contact_area .checkbox-wrapper-33 .checkbox__textwrapper {
+ 
+	font-size: 14px; 
+	line-height: 28px; 
+}
+
+.sk_contact_area  .single_form textarea { 
+	height: 143px;
 }
