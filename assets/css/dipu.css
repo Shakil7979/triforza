@@ -87,7 +87,6 @@
 	line-height: clamp(30px,5vw, 40px);
     font-weight: 700;
     letter-spacing: 0.48px;
-    padding-bottom: 20px;
 }
 
 .single_items_text .single_pera{
@@ -98,6 +97,10 @@
     letter-spacing: 0.4px;
     list-style: disc;
     padding-top: 10px;
+}
+
+.mobile_block{
+    display: none;
 }
 
 .data_security_img{
@@ -187,4 +190,49 @@
 
 .single_items_text .dot_none{
     list-style: none;
+}
+
+
+/* Option Page CSS Start */
+.option_item{
+    padding-top: 23px;
+}
+
+.option_sub_tittle{
+    padding-bottom: 24px;
+}
+
+.option_banner_content{
+    gap: 30px 10px;
+}
+
+.banner_top_content .option_tittle{
+    width: 110%;
+}
+
+.option_banner_main{
+    padding-bottom: 120px;
+}
+
+/* Option B Page CSS Start */
+
+.option_sub_tittles{
+    width: 110%;
+}
+
+.option_link_text{
+    color: #42F4B1 !important;
+}
+
+.single_items_text .option_b_pera {
+	max-width: 583px;
+}
+
+.bottom_list{
+    padding-left: 30px;
+}
+
+.option_b_right{
+    padding-top: 300px;
+    padding-left: 96px;
 }

@@ -34,13 +34,18 @@
         padding-top: 40px;
     }
     .data_security_img {
-        padding: 50px 0 10px 0;
+        padding: 0 0 40px 0;
         text-align: center;
     }
     .data_security_img img {
         max-width: 573px;
     }
-
+    .mobile_none{
+        display: none;
+    }
+    .mobile_block{
+        display: block;
+    }
     .banner_inner_left_content {
         padding-top: 50px;
     }
@@ -65,6 +70,17 @@
 
     .inner_banner_content {
         grid-template-columns: repeat(1 , 1fr);
+    }
+    .option_banner_main {
+        padding-bottom: 90px;
+    }
+    .option_banner_b_main{
+        padding-bottom: 0;
+    }
+    .option_b_right {
+        padding-top: 0 !important;
+        padding-left: 20px;
+        padding-bottom: 30px;
     }
 }
 
@@ -99,6 +115,12 @@
     }
     .why_banner_main{
         padding-top: 60px;
+    }
+    .option_banner_main {
+        padding-bottom: 50px;
+    }
+    .option_b_right {
+        margin-top: -60px !important;
     }
 }
 @media all and (max-width:575px) {
@@ -141,6 +163,12 @@
     }
     .why_banner_main{
         padding-top: 50px;
+    }
+    .option_banner_main {
+        padding-bottom: 40px;
+    }
+    .option_b_right {
+        margin-top: -40px !important;
     }
 }
 @media all and (max-width:450px) {
