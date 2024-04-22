@@ -365,6 +365,10 @@
     .logo {
         flex: 0 0 33%;
     }
+    .header_btn_area{ 
+        display: flex;
+        justify-content: flex-end;
+    }
     .menu > ul {
         flex-direction: column;
         position: absolute;
@@ -448,10 +452,10 @@
         padding: 101px 0 60px;
     }
     .header_btn_area a {
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 800;
         line-height: 15px;
-        padding: 16px 25px;
+        padding: 11px 16px;
         background-size: 100% 100%;
     }
     .single_service_items:nth-child(1) .service_list_details, .single_service_items:nth-child(2) .service_list_details {
