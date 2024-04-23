@@ -74,6 +74,12 @@
     .option_banner_main {
         padding-bottom: 90px;
     }
+    .option_a_banner_right {
+        background:none;
+    }
+    .option_a_banner_img{
+        display: block;
+    }
     .option_banner_b_main{
         padding-bottom: 0;
     }

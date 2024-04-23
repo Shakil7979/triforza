@@ -193,7 +193,7 @@
 }
 
 
-/* Option Page CSS Start */
+/* Option A Page CSS Start */
 .option_item{
     padding-top: 23px;
 }
@@ -212,6 +212,12 @@
 
 .option_banner_main{
     padding-bottom: 120px;
+}
+.option_a_banner_img{
+    display: none;
+}
+.option_a_banner_right{
+    background: url("../images/option-A/banner-img.png")no-repeat scroll 0 0 / cover;
 }
 
 /* Option B Page CSS Start */
