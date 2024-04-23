@@ -5,8 +5,9 @@ $(document).ready(function(){
         loop:true,
         nav:true,
         dots:true,
-        
+        navText: ["<img src='assets/images/left_arrow.png'>","<img src='assets/images/right_arrow.png'>"]
     });
+    
     // $('.our_client_content').slick({
     //     arrows: true,
     //     centerPadding: "0px",

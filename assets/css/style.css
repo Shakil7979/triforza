@@ -545,16 +545,30 @@ img{
 
 .single_review_img.single_image_revew_two img {
 	object-fit: inherit;
-	height: 829px;
-	transform: translateY(-133px);
-	width: 687px !important;
+	height: 748px;
+	transform: translateY(-107px);
+	width: 670px !important;
 }
 
 .single_review_img.single_image_revew_three img {
-	width: 969px !important;
-	height: 734px;
+	width: 1073px !important;
+	height: 715px;
 	object-fit: inherit;
-	transform: translateY(-91px);
+	transform: translateY(-75px);
+	margin-left: -141px;
+}
+
+.single_review_img.single_image_revew_four img {
+	width: 940px !important;
+	height: 604px;
+	transform: translateY(36px);
+	margin-left: -48px;
+}
+
+.single_review_img.single_image_revew_five img {
+	width: 834px !important;
+	height: 614px;
+	transform: translateY(26px);
 }
 
 .single_review_img {
@@ -957,9 +971,12 @@ input[type=number] {
 }
 
 .footer_logo {
-	flex: 0 0 45%;
+	flex: 0 0 40%;
 }
 
+.footer_middle_txt {
+	flex: 0 0 22%;
+}
 
 .footer_single > a{
 	display: inline-block;
@@ -1065,7 +1082,7 @@ input[type=number] {
 .single_review_left h4 {
 	color: #000;
 	font-family: Roboto;
-	font-size: 26px;
+	font-size: 30px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 50px;
@@ -1191,4 +1208,15 @@ input[type=number] {
 
 .checkbox-wrapper-33 .checkbox { 
 	margin-bottom: 10px;
+}
+
+.single_image_revew_one img {
+	width: 950px !important;
+	height: 100%;
+	object-fit: cover;
+}
+
+.client_review_left_area .owl-prev img ,
+.client_review_left_area .owl-next img {
+	width: 53px;
 }
