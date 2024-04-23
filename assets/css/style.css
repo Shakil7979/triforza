@@ -69,6 +69,7 @@ body{
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  overflow-x: hidden;
 }
 img{
   width: 100%;
@@ -373,8 +374,8 @@ img{
 }
 .service_two {
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 35%;
-	        flex: 0 0 35%;
+	    -ms-flex: 0 0 43%;
+	        flex: 0 0 43%;
 }
 .service_three {
 	-webkit-box-flex: 0;
@@ -443,9 +444,18 @@ img{
 }
 /* Start client review main area css */
 .client_review_main_area {
-	background: #42F4B1;
 	position: relative;
+	background: #fff;
   /* padding: 120px 0 108px; */
+}
+.client_review_main_area::after {
+	background: #42F4B1;
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 87.5%;
+	top: 80px;
+	left: 0;
 }
 .single_review_items p {
 	color: #00152E;
@@ -460,10 +470,11 @@ img{
 .client_review_title {
 	margin-bottom: 35px;
 	padding-left: 95px;
-	padding-top: 80px;
+	padding-top: 118px;
 }
-.client_review_content{
-  position: relative;
+.client_review_content {
+	position: relative;
+	z-index: 99;
 }
 .client_right_review {
 	position: absolute;
@@ -529,6 +540,20 @@ img{
 	width: 100% !important;
 	height: 100%;
 	object-fit: cover;
+}
+
+.single_review_img.single_image_revew_two img {
+	object-fit: inherit;
+	height: 829px;
+	transform: translateY(-133px);
+	width: 687px !important;
+}
+
+.single_review_img.single_image_revew_three img {
+	width: 969px !important;
+	height: 734px;
+	object-fit: inherit;
+	transform: translateY(-91px);
 }
 
 .single_review_img {
@@ -1100,4 +1125,12 @@ input[type=number] {
 
 .sk_contact_area  .single_form textarea { 
 	height: 143px;
+}
+
+.custom_row_3 {
+	display: flex;
+}
+
+.col-md-33 {
+	flex: 0 0 30%;
 }
