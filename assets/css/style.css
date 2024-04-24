@@ -1220,3 +1220,8 @@ input[type=number] {
 .client_review_left_area .owl-next img {
 	width: 53px;
 }
+
+.triforza_benefit_images {
+	border-radius: 0 0 0 155px;
+	overflow: hidden;
+}
