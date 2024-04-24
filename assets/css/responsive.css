@@ -22,6 +22,11 @@
         height: 252px;
         padding: 101px 0;
     }
+    .footer_single a, .footer_single h3 { 
+        font-size: 18px; 
+        line-height: 24px;
+        margin-bottom: 23px;
+    }
     .mega_menu_menu ul li a img {
         width: 20px;
     }
@@ -582,6 +587,9 @@
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0.6px;
+    }
+    .client_review_main_area::after {
+        height: 89%;
     }
     .banner_top_area {
         gap: 20px;
