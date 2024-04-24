@@ -16,6 +16,18 @@
 }
 
 @media all and (max-width:991px) {
+
+    .about_img img,
+    .why_triforza_banner img,
+    .option_a_banner_img img{
+        display: block;
+    }
+
+    .why_triforza_img,
+    .about_banner_img,
+    .option_a_banner_main_img{
+        display: none;
+    }
     .clients_think_main_area{
         padding: 100px 0 50px 0;
     }
@@ -84,8 +96,8 @@
         padding-bottom: 0;
     }
     .option_b_right {
-        padding-top: 0 !important;
-        padding-left: 20px;
+        padding-top: 10px !important;
+        padding-left: 0;
         padding-bottom: 30px;
     }
 }
@@ -127,6 +139,7 @@
     }
     .option_b_right {
         margin-top: -60px !important;
+        padding-top: 20px !important;
     }
 }
 @media all and (max-width:575px) {
