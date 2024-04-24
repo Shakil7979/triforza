@@ -1,5 +1,7 @@
 @media all and (max-width: 1399px) {
-   
+    .option_a_banner_main_img {
+        max-width: 60%;
+    }
 }
 @media all and (max-width: 1365px) {
    

@@ -113,6 +113,10 @@
     object-fit: contain;
 }
 
+.list_item {
+	padding-left: 20px;
+}
+
 /* About Page CSS start */
 .about_banner_main{
     padding-bottom: 161px;
@@ -136,7 +140,7 @@
     max-width: 768px;
     width: 100%;
     position: relative;
-    z-index: 99;
+    z-index: 9;
     padding-top: 86px;
 }
  
@@ -216,8 +220,11 @@
 
 
 /* Option A Page CSS Start */
-.option_main_banner{
-    position: relative;
+.option_main_banner {
+	position: relative;
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .option_item{
