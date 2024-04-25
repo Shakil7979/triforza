@@ -204,8 +204,7 @@ img{
 }
  
 .drop_menu.active i,
-.solutions_menu.active i,
-.menu_ul li a:hover i {
+.solutions_menu.active i{
 	transform: rotate(180deg);
 }
 

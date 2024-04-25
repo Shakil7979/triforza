@@ -66,44 +66,38 @@ $(document).on('click','.drop_menu',function(){
   return false;
 });
 
+ 
+// const menuItem2 = document.querySelector(".drop_menu");
+// const megaMenu2 = document.querySelector(".dorp_down");
+ 
+// menuItem2.addEventListener("mouseenter", () => {
+//     megaMenu2.style.display = "block";  
+//     $('.mega_menu').hide();
+//     $('.solutions_menu').removeClass('active'); 
+//     $(this).addClass('active'); 
+// });
 
-// Grabbing the menu item and the mega menu for additional behavior
-const menuItem2 = document.querySelector(".drop_menu");
-const megaMenu2 = document.querySelector(".dorp_down");
+// menuItem2.addEventListener("mouseleave", () => {
+//     megaMenu2.style.display = "none";  
+//     $('.dorp_down').hide();
+//     $(this).removeClass('active'); 
+// });
 
-// Optional: You could add event listeners for hover events
-// This might be useful for advanced interactions or animations
-menuItem2.addEventListener("mouseenter", () => {
-    megaMenu2.style.display = "block";  
-    $('.mega_menu').hide();
-    $('.solutions_menu').removeClass('active'); 
-    $(this).addClass('active'); 
-});
+ 
+// const menuItem = document.querySelector(".solutions_menu");
+// const megaMenu = document.querySelector(".mega_menu");
+ 
+// menuItem.addEventListener("mouseenter", () => {
+//     megaMenu.style.display = "block"; 
+//     $('.drop_menu').removeClass('active'); 
+//     $('.dorp_down').hide(); 
+//     $(this).addClass('active'); 
+// });
 
-menuItem2.addEventListener("mouseleave", () => {
-    megaMenu2.style.display = "none";  
-    $('.dorp_down').hide();
-    $(this).removeClass('active'); 
-});
-
-
-// Grabbing the menu item and the mega menu for additional behavior
-const menuItem = document.querySelector(".solutions_menu");
-const megaMenu = document.querySelector(".mega_menu");
-
-// Optional: You could add event listeners for hover events
-// This might be useful for advanced interactions or animations
-menuItem.addEventListener("mouseenter", () => {
-    megaMenu.style.display = "block"; 
-    $('.drop_menu').removeClass('active'); 
-    $('.dorp_down').hide(); 
-    $(this).addClass('active'); 
-});
-
-menuItem.addEventListener("mouseleave", () => {
-    megaMenu.style.display = "none"; 
-    $(this).removeClass('active'); 
-});
+// menuItem.addEventListener("mouseleave", () => {
+//     megaMenu.style.display = "none"; 
+//     $(this).removeClass('active'); 
+// });
 
 
 
