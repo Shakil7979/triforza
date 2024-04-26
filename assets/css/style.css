@@ -1379,6 +1379,7 @@ input[type=number] {
 	margin-top: 94px;
 }
 
+.dental_custom_right_content h3 ,
 .module_main_content_box h3 {
 	color: #000;
 	font-family: Roboto;
@@ -1390,6 +1391,12 @@ input[type=number] {
 	margin-bottom: 8px;
 }
 
+
+.dental_custom_right_content h3 {
+	margin-bottom: 4px !important;
+}
+
+.dental_custom_right_content p ,
 .module_main_content_box p {
 	color: #000;
 	font-family: Roboto;
@@ -1422,4 +1429,220 @@ input[type=number] {
 
 .module_chart_img img{
 	width: 100%;
+}
+
+.result_title h2 {
+	color: #000;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 1px;
+}
+
+.result_title p {
+	color: #000;
+	font-family: Poppins;
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 50px;
+	letter-spacing: 0.64px;
+	text-align: center;
+	margin-top: 12px;
+}
+
+.result_main_area {
+	margin-top: 90px;
+}
+
+.result_top {
+	width: 171px;
+	height: 171px;
+	border: 1px solid #29DEFD;
+	border-radius: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.result_item > p {
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 17.178px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 23.858px;
+	letter-spacing: 0.344px;
+	margin-top: 12px;
+}
+
+.result_top h1 {
+	color: #008FF9;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 58.051px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 49.726px;
+}
+
+.result_top h1 span {
+	font-size: 37px
+}
+
+.result_top p {
+	color: #008FF9;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 17.106px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 19.957px;
+}
+
+.result_row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 84%;
+	margin: 45px auto 0 auto;
+}
+
+.result_item {
+	flex: 0 0 11%;
+}
+
+/* Shakil Dental Css  */
+
+.dental_main_area {
+	padding: 100px 0;
+	background: #fff;
+}
+
+.dental_icon_item {
+	border-radius: 8.812px;
+	border: 1.762px solid #29DEFD;
+	width: 238.98px;
+	height: 240.214px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dental_icon_item.dental_icon_item1 img {
+	width: 161px;
+}
+
+.dental_icon_item.dental_icon_item2 img {
+	width: 117px;
+}
+
+.dental_icon_item.dental_icon_item3 img {
+	width: 84px;
+}
+
+.dental_icon_item.dental_icon_item4 img {
+	width: 135px;
+}
+
+.dental_icon_item.dental_icon_item5 img {
+	width: 155px;
+}
+
+.dental_row {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 61px;
+	width: 84%;
+	margin: 0 auto;
+	margin-top: 61px;
+}
+
+.dental_custom_item {
+	display: flex;
+	gap: 36px;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+
+.dental_custom_item_img.dental_custom_item1 img {
+	width: 82px;
+}
+
+.dental_custom_item_img.dental_custom_item2 img {
+	width: 60px;
+}
+
+.dental_custom_item_img.dental_custom_item3 img {
+	width: 43px;
+}
+
+.dental_custom_item_img.dental_custom_item4 img {
+	width: 69px;
+}
+
+.dental_custom_item_img.dental_custom_item5 img {
+	width: 79px;
+}
+
+.dental_custom_item_img { 
+	flex: 0 0 5%;
+}
+
+.dental_custom_row {
+	margin-top: 86px;
+}
+
+.dental_imgg_box {
+	border-radius: 12.082px;
+	border: 1.208px solid #29DEFD;
+	padding: 8px;
+}
+
+.dental_imgg {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 86px;
+}
+
+.dental_imgg_item1 {
+	flex: 0 0 39%;
+}
+
+.dental_imgg_item2 {
+	flex: 0 0 59%;
+}
+
+.dental_imgg_item > p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 32.23px;
+	letter-spacing: 0.4px;
+	margin-top: 12px;
+}
+
+.dental_support > p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 40px;
+	letter-spacing: 0.4px;
+	max-width: 1041px;
+	width: 100%;
+	margin: 25px auto 0 auto;
+}
+
+.dental_support {
+	margin-top: 86px;
 }
