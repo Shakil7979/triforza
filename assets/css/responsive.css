@@ -96,6 +96,7 @@
         width: 70%;
         line-height: 23px;
         font-size: 16px;
+        margin-top: 12px;
     }
     .copy_textt p { 
         font-size: 14px; 
@@ -168,6 +169,9 @@
         max-width: 490px;
         width: 100%;
         margin-left: 95px;
+        line-height: 24px;
+        /* padding: 25px 0; */
+        padding-top: 61px;
     }
     .owl-carousel .owl-nav button.owl-prev {
         font-size: 110px;
@@ -624,6 +628,9 @@
 @media all and (max-width:767px) {
     .logo a img {
         max-width: 150px;
+    }
+    .single_review_items p { 
+        padding-top: 24px;
     }
     .single_review_items p { 
         line-height: 25px;
