@@ -204,8 +204,7 @@ img{
 }
  
 .drop_menu.active i,
-.solutions_menu.active i,
-.menu_ul li a:hover i {
+.solutions_menu.active i{
 	transform: rotate(180deg);
 }
 
@@ -1269,4 +1268,152 @@ input[type=number] {
 .triforza_benefit_images {
 	border-radius: 0 0 0 155px;
 	overflow: hidden;
+}
+
+
+/* shakil fwa css  */
+
+.modul_main_area {
+	padding: 100px 0;
+	background: #fff;
+}
+
+.moduls_content {
+	border-radius: 10.596px;
+	border: 1.06px solid #29DEFD;
+	padding: 90px 100px;
+	margin-bottom: 86px;
+}
+
+.moduls_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.model_right > h3{
+	text-align: center;
+}
+.model_right > h3,
+.modul_left > h3 {
+	color: #008FF9;
+	font-family: Poppins;
+	font-size: 29.669px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 42.384px;
+	margin-bottom: 44px;
+}
+
+.content_modul_item h3 {
+	color: #000;
+	font-family: Roboto;
+	font-size: 19.073px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 29.669px;
+	letter-spacing: 0.381px;
+}
+
+
+.content_modul_item p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 19.073px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 29.669px;
+	letter-spacing: 0.381px;
+}
+
+.model_right ul li p { 
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 19.073px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 29.669px;
+	letter-spacing: 0.381px;
+}
+
+.model_right ul li p span { 
+	font-weight: 700; 
+}
+
+.content_first_modul ul li {
+	display: flex;
+	gap: 45px;
+	margin-bottom: 16px;
+}
+
+.content_first_modul ul li img {
+	width: 129px;
+}
+
+.modul_left {
+	flex: 0 0 39%;
+}
+ 
+
+.model_right {
+	flex: 0 0 25%;
+}
+
+.model_right ul li p {
+	border-radius: 14.834px;
+	background: rgba(41, 222, 253, 0.10);
+	padding: 20px 22px;
+}
+
+.model_right ul li {
+	margin-bottom: 16px;
+}
+
+.moduls_row svg {
+	margin-top: 94px;
+}
+
+.module_main_content_box h3 {
+	color: #000;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+	margin-bottom: 8px;
+}
+
+.module_main_content_box p {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 40px;
+	letter-spacing: 0.4px;
+}
+
+.module_main_content_box {
+	margin-bottom: 25px;
+}
+
+.chart_module_margin{
+	margin-bottom: 74px;
+}
+
+.module_chart_box {
+	margin-top: 100px;
+}
+
+.module_chart_box .module_main_content_box p { 
+	width: 83%;
+}
+
+.module_chart_img {
+	border: 1px solid #29DEFD;
+}
+
+.module_chart_img img{
+	width: 100%;
 }
