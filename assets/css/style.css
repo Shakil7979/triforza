@@ -189,12 +189,12 @@ img{
 
 .dorp_down {
 	position: absolute;
-	top: 81px;
+	top: 95px;
 	z-index: 99;
 	background: #20194B;
 	display: none;
 	padding: 16px 24px;
-	width: 185px;
+	width: 225px;
 }
 
 .menu_ul {
@@ -232,13 +232,18 @@ img{
 .mega_menu_menu ul li a span {
 	color: var(--P5, #FFF);
 	font-family: "Poppins", sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 40px;
 	letter-spacing: 0.32px;
 	transition: 0.3s;
 	margin-left: 6px;
+}
+
+.mega_menu_menu ul li a {
+	display: flex;
+	gap: 8px;
 }
  
 .mega_menu_menu ul li a:hover svg path { 
@@ -501,7 +506,8 @@ img{
 	max-width: 803px;
 	width: 100%;
 	margin-left: 95px;
-	padding-top: 38px;
+	padding-top: 0;
+	line-height: 38px;
 }
 .client_review_title h2 {
 	color: #00152E;

@@ -22,6 +22,9 @@
         height: 252px;
         padding: 101px 0;
     }
+    .dorp_down { 
+        width: 182px;
+    }
     .mega_menu_menu ul li {
         margin-bottom: 5px;
     }
@@ -33,9 +36,11 @@
     .mega_menu_menu ul li a img {
         width: 20px;
     }
-    .mega_menu_menu ul li a span { 
-        font-size: 12px; 
-    } 
+    .mega_menu_menu ul li a span {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 8px;
+    }
     .client_review_main_area::after { 
         height: 82%; 
     } 
@@ -619,6 +624,9 @@
 @media all and (max-width:767px) {
     .logo a img {
         max-width: 150px;
+    }
+    .single_review_items p { 
+        line-height: 25px;
     }
 
     .sk_contact_area .contactUs_title p { 
