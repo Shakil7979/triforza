@@ -102,6 +102,61 @@
         padding-left: 0;
         padding-bottom: 30px;
     }
+
+    .banner_short_img {
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .online_reporting_banner {
+        padding: 70px 0;
+    }
+
+    .client_reporting_bottom,
+    .client_reporting_top {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .client_reporting_main_area {
+        padding: 50px 0;
+    }
+    .client_reporting_top_right .broker_content {
+        padding-bottom: 10px;
+    }
+    .contact_all_services {
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 30px;
+    }
+    .contact_service_main_area {
+        padding: 60px 0;
+    }
+    .contact_single_box_img {
+        margin: 0 auto;
+    }
+    .contact_single_items {
+        padding: 40px;
+    }
+    .digital_platform_banner_items {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .portals_wrapper .subtittle {
+        padding-top: 30px;
+    }
+    .portlas_all_items {
+        padding-top: 50px;
+    }
+    .portlas_all_items .workflow_single_item {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .portals_single,
+    .member_portals {
+        justify-content: center;
+    }
+    .core_items_content {
+        gap: 30px;
+        padding-top: 30px;
+    }
+    .single_core .core_disc {
+        padding-top: 10px;
+    }
 }
 
 @media all and (max-width:767px) {
@@ -142,6 +197,25 @@
     .option_b_right {
         margin-top: -60px !important;
         padding-top: 20px !important;
+    }
+    .contact_service_main_area {
+        padding: 50px 0;
+    }
+    .capabilites_single_items {
+        max-width: 100%;
+    }
+    .workflow_wrapper .sub_tittle {
+        max-width: 100%;
+        padding: 30px 0 40px 0;
+    }
+    .workflow_single_item {
+        flex-wrap: wrap;
+    }
+    .digital_platform_banner_items {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .core_items_content {
+        gap: 15px;
     }
 }
 @media all and (max-width:575px) {
@@ -191,6 +265,29 @@
     .option_b_right {
         margin-top: -40px !important;
     }
+    .online_reporting_banner {
+        padding: 50px 0;
+    }
+    .banner_short_img {
+        max-width: 200px;
+    }
+    .report_example_wrapper {
+        gap: 30px;
+    }
+    .contact_single_items {
+        padding: 30px;
+    }
+    .contact_single_box_img {
+        max-width: 80px;
+    }
+    .portals_wrapper .subtittle {
+        padding-top: 20px;
+    }
+    .portlas_main_area {
+        padding: 40px 0;
+        background: #FFF;
+    }
+    
 }
 @media all and (max-width:450px) {
     .talk_wrapper .sub_text {
