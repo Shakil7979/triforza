@@ -192,7 +192,7 @@ img{
 	top: 79px;
 	z-index: 99;
 	display: none;
-	padding-top: 59px;
+	padding-top: 77px;
 }
 
 .dorp_down{ 
@@ -212,26 +212,21 @@ img{
 	transform: rotate(180deg);
 }
 
-.mega_menu {
-	/* position: absolute;
-	top: 101%; */
-	background: #20194B;
-	/* width: 100%; */
-	padding: 40px 0;
-	/* left: 0; */
+.mega_menu { 
+	background: #20194B; 
+	padding: 40px 0; 
 	border-bottom: 1px solid rgba(41, 222, 253, 0.50);
-	/* z-index: 9999; */
+	 
 }
 
 
 .mega_menu_mail {
-	position: absolute;
-	top: 101%;
+	position: absolute; 
 	z-index: 9999;
 	width: 100%;
 	left: 0;
 	top: 77px;
-	padding-top: 61px;
+	padding-top: 79px;
 	display: none;
 }
 

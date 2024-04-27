@@ -22,6 +22,13 @@
         height: 252px;
         padding: 101px 0;
     }
+    
+    .drop_down_menu { 
+        padding-top: 59px;
+    }
+    .mega_menu_mail { 
+        padding-top: 61; 
+    }
     .dental_icon_item.dental_icon_item1 img {
         width: 75px;
     }
