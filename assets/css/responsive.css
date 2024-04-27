@@ -22,6 +22,9 @@
         height: 252px;
         padding: 101px 0;
     }
+    .option_a_banner_main_img {
+        max-width: 60%;
+    }
     .portals_wrapper .tittle_pera {
         font-size: 16px;
         line-height: 28px; 
@@ -374,6 +377,10 @@
     .banner_single_items img {
         max-width: 220px;
     }
+    .why_banner_left,
+    .about_banner_main {
+        padding-bottom: 90px;
+    }
     .dental_icon_item { 
         height: 147.214px;
     }
@@ -538,6 +545,146 @@
     .banner_top_area {
         gap: 50px;
         padding: 125px 0 125px;
+    }
+
+    
+    .about_img img,
+    .why_triforza_banner img,
+    .option_a_banner_img img{
+        display: block;
+    }
+
+    .why_triforza_img,
+    .about_banner_img,
+    .option_a_banner_main_img{
+        display: none;
+    }
+    .clients_think_main_area{
+        padding: 100px 0 50px 0;
+    }
+    .lets_talk_main_area {
+        padding: 100px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 27px;
+        line-height: normal;
+    }
+
+    .data_security_main {
+        padding: 70px 0 100px 0;
+    }
+    .banner_top_content .sub_tittle {
+        padding-top: 40px;
+    }
+    .data_security_img {
+        padding: 0 0 40px 0;
+        text-align: center;
+    }
+    .data_security_img img {
+        max-width: 573px;
+    }
+    .mobile_none{
+        display: none;
+    }
+    .mobile_block{
+        display: block;
+    }
+    .banner_inner_left_content {
+        padding-top: 50px;
+    }
+
+    .why_banner_left,
+    .about_banner_main {
+        padding-bottom: 70px;
+    }
+    .why_banner_main{
+        padding-top: 70px;
+    }
+
+    .banner_inner_left_content {
+        max-width: inherit;
+        padding-right: 20px;
+    }
+
+    .why_banner_left{
+        max-width: inherit;
+        padding-right: 20px;
+    }
+
+    .inner_banner_content {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .option_banner_main {
+        padding-bottom: 90px;
+    }
+    .option_a_banner_right {
+        background:none;
+    }
+    .option_a_banner_img{
+        display: block;
+    }
+    .option_banner_b_main{
+        padding-bottom: 0;
+    }
+    .option_b_right {
+        padding-top: 10px !important;
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .banner_short_img {
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    .online_reporting_banner {
+        padding: 70px 0;
+    }
+
+    .client_reporting_bottom,
+    .client_reporting_top {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .client_reporting_main_area {
+        padding: 50px 0;
+    }
+    .client_reporting_top_right .broker_content {
+        padding-bottom: 10px;
+    }
+    .contact_all_services {
+        grid-template-columns: repeat(1 , 1fr);
+        gap: 30px;
+    }
+    .contact_service_main_area {
+        padding: 60px 0;
+    }
+    .contact_single_box_img {
+        margin: 0 auto;
+    }
+    .contact_single_items {
+        padding: 40px;
+    }
+    .digital_platform_banner_items {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .portals_wrapper .subtittle {
+        padding-top: 30px;
+    }
+    .portlas_all_items {
+        padding-top: 50px;
+    }
+    .portlas_all_items .workflow_single_item {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .portals_single,
+    .member_portals {
+        justify-content: center;
+    }
+    .core_items_content {
+        gap: 30px;
+        padding-top: 30px;
+    }
+    .single_core .core_disc {
+        padding-top: 10px;
     }
 
     .banner_inner_left_content .about_sub_tittle { 
@@ -910,6 +1057,63 @@
     .logo a img {
         max-width: 150px;
     }
+    .clients_think_main_area{
+        padding: 60px 0 50px 0;
+    }
+    .lets_talk_main_area {
+        padding: 60px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 25px;
+    }
+    .data_security_main {
+        padding: 50px 0 80px 0;
+    }
+
+    .banner_top_content .sub_tittle {
+        padding-top: 35px;
+    }
+    .banner_single_items {
+        padding-top: 28px;
+    }
+    .about_img{
+        width: 100%;
+    }
+    .banner_inner_left_content {
+        padding-top: 40px;
+    }
+    .banner_top_content .about_tittle {
+        padding-bottom: 20px;
+    }
+    .why_banner_main{
+        padding-top: 60px;
+    }
+    .option_banner_main {
+        padding-bottom: 50px;
+    }
+    .option_b_right {
+        margin-top: -60px !important;
+        padding-top: 20px !important;
+    }
+    .contact_service_main_area {
+        padding: 50px 0;
+    }
+    .capabilites_single_items {
+        max-width: 100%;
+    }
+    .workflow_wrapper .sub_tittle {
+        max-width: 100%;
+        padding: 30px 0 40px 0;
+    }
+    .workflow_single_item {
+        flex-wrap: wrap;
+    }
+    .digital_platform_banner_items {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .core_items_content {
+        gap: 15px;
+    }
     .footer_single a {
         margin-bottom: 6px;
     }
@@ -995,6 +1199,76 @@
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0.6px;
+    }
+    .clients_think_main_area{
+        padding: 50px 0 20px 0;
+    }
+    .lets_talk_main_area {
+        padding: 50px 0;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .data_security_main {
+        padding: 30px 0 50px 0;
+    }
+    .banner_top_content .sub_tittle {
+        padding-top: 25px;
+        font-size: 16px;
+    }
+    .plus_img {
+        margin-top: 3px;
+    }
+    .plus_img img {
+        width: 16.027px;
+        height: 16.024px;
+    }
+    .banner_single_items {
+        padding-top: 20px;
+    }
+    .single_items_text .single_item_tittle {
+        padding-bottom: 10px;
+    }
+    .banner_top_content .about_tittle {
+        padding-bottom: 0;
+    }
+
+    .why_banner_left,
+    .about_banner_main {
+        padding-bottom: 50px;
+    }
+    .why_banner_main{
+        padding-top: 50px;
+    }
+    .option_banner_main {
+        padding-bottom: 40px;
+    }
+    .option_b_right {
+        margin-top: -40px !important;
+    }
+    .online_reporting_banner {
+        padding: 50px 0;
+    }
+    .banner_short_img {
+        max-width: 200px;
+    }
+    .report_example_wrapper {
+        gap: 30px;
+    }
+    .contact_single_items {
+        padding: 30px;
+    }
+    .contact_single_box_img {
+        max-width: 80px;
+    }
+    .portals_wrapper .subtittle {
+        padding-top: 20px;
+    }
+    .portlas_main_area {
+        padding: 40px 0;
+        background: #FFF;
     }
     .dental_row { 
         margin-top: 31px;
@@ -1149,6 +1423,14 @@
 @media all and (max-width:450px) {
     .header_content_area {
         padding: 35px 0px 25px 0px;
+    }
+    .talk_wrapper .sub_text {
+        font-size: 20px;
+    }
+
+    .why_banner_left,
+    .about_banner_main {
+        padding-bottom: 40px;
     }
     .dental_icon_item {
         height: 103.214px;
