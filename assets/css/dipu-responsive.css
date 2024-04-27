@@ -226,7 +226,8 @@
         padding: 50px 0;
     }
     .talk_wrapper .sub_text {
-        font-size: 22px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .data_security_main {
@@ -234,6 +235,7 @@
     }
     .banner_top_content .sub_tittle {
         padding-top: 25px;
+        font-size: 16px;
     }
     .plus_img {
         margin-top: 3px;

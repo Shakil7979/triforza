@@ -22,6 +22,89 @@
         height: 252px;
         padding: 101px 0;
     }
+    .portals_wrapper .tittle_pera {
+        font-size: 16px;
+        line-height: 28px; 
+    }
+    .single_items_text .single_item_tittle_text { 
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .banner_top_content .sub_tittle { 
+        font-size: 18px;
+        line-height: 29px; 
+    }
+    .client_reporting_bottom_left .swift_content { 
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .client_reporting_bottom_right ul li, .client_reporting_bottom_left ul li {
+        font-size: 16px;
+        line-height: 23px; 
+    }
+    .client_reporting_bottom_right .swift_content { 
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .client_reporting_text { 
+        font-size: 16px;
+        line-height: 30px; 
+    }
+    .client_reporting_top_right ul li { 
+        font-size: 16px;
+        line-height: 22px; 
+    }
+    .portals_wrapper .subtittle {
+        font-size: 16px;
+        line-height: 28px; 
+    }
+    .single_core .core_disc {
+        font-size: 16px;
+        line-height: 28px; 
+    }
+    .contact_single_box_content ul li { 
+        font-size: 16px;
+        line-height: 30px; 
+    }
+    .talk_wrapper .sub_text { 
+        font-size: 22px; 
+        line-height: 36px; 
+        margin-top: 19px;
+    }
+    .banner_inner_main_area .banner_tittle { 
+        font-size: 36px;
+    } 
+    .dental_custom_item_img.dental_custom_item4 img {
+        width: 47px;
+    }
+    .dental_custom_item_img.dental_custom_item3 img {
+        width: 31px;
+    }
+    .dental_custom_item_img.dental_custom_item2 img {
+        width: 43px;
+    }
+    .dental_custom_item_img.dental_custom_item1 img {
+        width: 49px;
+    }
+    .dental_custom_item_img.dental_custom_item5 img {
+        width: 48px;
+    }
+    .single_items_text .single_pera { 
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .service_two .service_inner_box {
+        margin-left: 21px;
+    }
+    .banner_inner_main_area .banner_sub_tittle {
+        font-size: 18px;
+        line-height: 22px; 
+    }
+    .banner_inner_main_area .banner_contents {
+ 
+        font-size: 14px;
+        line-height: 26px; 
+    }
     
     .drop_down_menu { 
         padding-top: 59px;
@@ -455,6 +538,57 @@
     .banner_top_area {
         gap: 50px;
         padding: 125px 0 125px;
+    }
+
+    .banner_inner_left_content .about_sub_tittle { 
+        font-size: 18px;
+        line-height: 28px; 
+    }
+
+    .single_items_text .single_item_tittle_text { 
+        font-size: 14px;
+        line-height: 22px; 
+    }
+    .banner_top_content .sub_tittle { 
+        font-size: 16px;
+        line-height: 24px; 
+    }
+    .client_reporting_bottom_left .swift_content { 
+        font-size: 14px;
+        line-height: 22px; 
+    }
+    .client_reporting_bottom_right ul li, .client_reporting_bottom_left ul li {
+        font-size: 14px;
+        line-height: 22px; 
+    }
+
+    .portals_wrapper .tittle_pera {
+        font-size: 14px;
+        line-height: 24px; 
+        margin-top: 9px;
+    }
+    .portals_wrapper .subtittle { 
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .single_items_text .single_pera { 
+        padding-top: 0;
+    }
+    .workflow_wrapper .sub_tittle { 
+        font-size: 14px; 
+    }
+    .single_items_text .single_pera { 
+        font-size: 14px;
+        line-height: 22px; 
+    }
+    .contact_single_box_content .box_tittle {
+ 
+        font-size: 16px; 
+    }
+    .contact_single_box_content ul li {
+ 
+        font-size: 14px;
+        line-height: 24px; 
     }
     .dental_icon_item {
         height: 150.214px;
