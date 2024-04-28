@@ -22,6 +22,13 @@
         height: 252px;
         padding: 101px 0;
     }
+    .dental_single p {
+        font-size: 16px;
+        width: 151px;
+    }
+    .dental_row { 
+        justify-content: space-between;
+    }
     .option_a_banner_main_img {
         max-width: 60%;
     }
@@ -130,9 +137,9 @@
     .dental_icon_item.dental_icon_item5 img {
         width: 85px;
     }
-    .dental_icon_item { 
-        width: 198.98px;
-        height: 189.214px; 
+    .dental_icon_item {
+        width: 146.98px;
+        height: 132.214px;
     }
     .dental_row { 
         gap: 20px;
@@ -1057,6 +1064,17 @@
     .logo a img {
         max-width: 150px;
     }
+    .banner_inner_left_content .single_text {
+ 
+        font-size: 16px;
+        line-height: 26px; 
+    }
+    .dental_single p {
+        font-size: 12px;
+        margin-top: 9px;
+        width: 107px;
+        line-height: 18px;
+    }
     .clients_think_main_area{
         padding: 60px 0 50px 0;
     }
@@ -1074,7 +1092,7 @@
         padding-top: 35px;
     }
     .banner_single_items {
-        padding-top: 28px;
+        padding-top: 6px;
     }
     .about_img{
         width: 100%;
@@ -1190,10 +1208,13 @@
         width: 100%;
         margin: auto;
     }
-    
-    
-    
+
+    .single_review_items p {  
+        margin-left: 95px; 
+    }  
 }
+
+
 @media all and (max-width:575px) {
     .text_30 {
         font-size: 18px;
